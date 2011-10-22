@@ -44,7 +44,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\CameraMove-Mouse.js" />
      <Compile Include="Assets\Script\CameraMove.js" />
+     <Compile Include="Assets\Script\ObjectMove-Mouse.js" />
      <Compile Include="Assets\Script\ObjectMove.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
