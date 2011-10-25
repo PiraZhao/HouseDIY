@@ -48,6 +48,7 @@
      <Compile Include="Assets\Script\CameraMove.js" />
      <Compile Include="Assets\Script\ObjectMove-Mouse.js" />
      <Compile Include="Assets\Script\ObjectMove.js" />
+     <Compile Include="Assets\Script\SceneManager.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

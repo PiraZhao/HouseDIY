@@ -39,10 +39,9 @@ function Update ()
 		if (isChosen) {
 			if (isOnOBJ) {
 				// calculate the rotation
+				// only rotate around Y axis
 				var vec = new Vector3();
-				vec.x = -touch.deltaPosition.y;
-				vec.y = 0;
-				vec.z = touch.deltaPosition.x;
+				vec.y = touch.deltaPosition.x;
 				
 				objChosen.transform.Rotate(vec);
 			}// operating on obj ( rotate etc. )

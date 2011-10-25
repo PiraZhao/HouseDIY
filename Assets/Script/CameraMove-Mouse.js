@@ -27,7 +27,34 @@ function Update()
 	
 	var h : float = hSpeed * Input.GetAxis("Mouse X");
 	var v : float = vSpeed * Input.GetAxis("Mouse Y");
-	cam.transform.Rotate(v, h, 0);
+	cam.transform.Rotate(0, h, 0);
+	var x = Mathf.Cos(cam.transform.eulerAngles.y);
+	var z = Mathf.Sin(cam.transform.eulerAngles.y);
+	Debug.Log(x + " : " + z);
+	cam.transform.RotateAround(Vector3.zero, 
+		new Vector3(x, 0, z), v);
+	/*
+	if (cam.transform.eulerAngles.y >= 0 && cam.transform.eulerAngles.y <= 180) {
+		if (cam.transform.eulerAngles.x >= 280 && cam.transform.eulerAngles.x <= 360) {
+			cam.transform.Rotate(-v, 0, 0);
+		} else if (cam.transform.eulerAngles.x >= 270 && cam.transform.eulerAngles.x <= 280) {
+			cam.transform.Rotate(-v, 0, h);
+		} else {
+			if (v > 0) {
+				cam.transform.Rotate(-v, 0, 0);
+			}
+		}
+	} else {
+		if (v < 0) {
+			cam.transform.Rotate(-v, 0, h);
+		}
+	}
+	*/
+	
+//	Debug.Log("Camera Quaternion:" + cam.transform.rotation.x + ":" + cam.transform.rotation.y
+//					+ ":" + cam.transform.rotation.z);
+	Debug.Log("Camera Angle: " + cam.transform.eulerAngles.x + ":" + cam.transform.eulerAngles.y
+					+ ":" + cam.transform.eulerAngles.z);
 }
 
 var pos_side = new Vector3(0, 45, -90);

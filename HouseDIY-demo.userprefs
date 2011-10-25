@@ -1,12 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\ObjectMove.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\CameraMove.js">
     <Files>
-      <File FileName="Assets\Script\ObjectMove.js" Line="68" Column="1" />
-      <File FileName="Assets\Script\ObjectMove-Mouse.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\CameraMove-Mouse.js" Line="27" Column="1" />
-      <File FileName="Assets\Script\CameraMove.js" Line="47" Column="1" />
-      <File FileName="..\..\..\..\zhao\Documents\Tencent Files\471455884\FileRecv\CamaraScript.cs" Line="33" Column="37" />
+      <File FileName="Assets\Script\CameraMove.js" Line="51" Column="1" />
+      <File FileName="Assets\Script\CameraMove-Mouse.js" Line="32" Column="47" />
+      <File FileName="Assets\Script\ObjectMove.js" Line="18" Column="1" />
+      <File FileName="Assets\Script\ObjectMove-Mouse.js" Line="28" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
